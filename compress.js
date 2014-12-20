@@ -1,4 +1,4 @@
-/*
+/**
 Author Saehyun Kim <saehyun91@gmail.com>
 LICENSE under BSD
 */
