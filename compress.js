@@ -1,6 +1,6 @@
 /*
 Author Saehyun Kim <saehyun91@gmail.com>
-LICENSE under BSD/
+LICENSE under BSD
 */
 
 function compress(str) {
