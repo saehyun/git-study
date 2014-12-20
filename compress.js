@@ -1,3 +1,8 @@
+/*
+Author SaehyunKim <saehyun91@gmail.com>
+LICENSE under BSD
+*/
+
 function compress(str) {
 	var repeat = 1;
 	var result = str.charAt(0);
@@ -6,6 +11,7 @@ function compress(str) {
 	for( var i =1; i < str.length; i++ ) {
 		if( str.charAt(i) === prev ) {
 			repeat++;
+			if ( i === str.length - 1 ) result += repeat;
 		} else {
 			if (repeat > 1) result += repeat;
 			result += str.charAt(i);
