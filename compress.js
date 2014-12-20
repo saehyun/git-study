@@ -1,6 +1,6 @@
 /*
-Author SaehyunKim <saehyun91@gmail.com>
-LICENSE under BSD
+Author Saehyun Kim <saehyun91@gmail.com>
+LICENSE under BSD  
 */
 
 function compress(str) {
